@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Electrolize", sans-serif;
+}
+
+h4 {
+  color: grey;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.header-contact span {
+  color: gray;
+  font-size: 1rem;
+}
+
+i {
+  margin-right: 5px;
+  color: #ea5ee5;
+}
+
+.datum {
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-family: "Electrolize", sans-serif;
+  font-size: 1rem;
+}
+
+.section-title {
+  color: #69ead4;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skills-list div {
+  margin-bottom: unset !important;
+}
+
+@media (min-width: 768px) {
+  .info-title img {
+    width: 30%;
+    filter: grayscale(0.8);
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    margin-top: 30px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo {
+    width: 30%;
+  }
+
+  .info {
+    border-bottom: 1px solid gray;
+  }
+
+  .info-title {
+    width: 60%;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .info-title img {
+    width: 30%;
+    filter: grayscale(0.8);
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .profile-content h1 {
+    font-size: 3rem;
+  }
+
+  .profile-content h2 {
+    font-size: 2rem;
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    border-bottom: 1px solid #95a19f;
+  }
+
+  .section-title {
+    width: 20%;
+  }
+
+  .section-content {
+    width: 80%;
+  }
+
+  .section-content div {
+    margin-bottom: 2rem;
+  }
+
+  .section-content div p {
+    margin-top: 0.5rem;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
